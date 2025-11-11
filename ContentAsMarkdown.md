@@ -1,21 +1,8 @@
-harrastuksia = true
-if harrastus == true then
-	print("Minulla on harrastuksia")
-else
-	print("Ei ole harrastuksia")
-end
+Kukapa olen?
+=======
 
+Olen yleensä tietokoneita harrastava nuorimies. _(Jos edes enää olen nuorimies...)_
 
-harrastus = script.Parent.StringValue.Value
-if harrastus == "Legojen keräily" then
-      print ("Legojen keräily")
-end
-function Ulkoilu()
-	if game.Universe.Maapallo.Weather.Value == "Sunny" then
-          print("Menen ulos ja otan valokuvia")
-        else
-          print("Olen sisällä ja olen tietokoneella tai rakentelen.")
-		end
-end
+Keräilen legoja, koska miksi ei. Olen myös ulkoileva, ja otan myös valokuvia joistain hienoista asioista jos keli sallii.
 
-script.Parent.Parent.Players.Robban.Thoughts.Changed:Connect(Ulkoilu)
+**Olen myös luokan suurin Frezza-addikti.**
